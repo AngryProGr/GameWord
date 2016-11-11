@@ -174,20 +174,20 @@ body {
     color: #e7c13c; }
   .content .news .news-blocks .textbox a:hover {
     color: #e74c3c; }
-  .content .news .news-blocks .button {
-    text-align: center; }
-    .content .news .news-blocks .button a {
-      text-decoration: none;
-      color: #fff;
-      display: inline-block;
-      width: 180px;
-      height: 50px;
-      background: #e74c3c;
-      text-align: center;
-      line-height: 3.1em;
-      margin-top: 30px; }
-    .content .news .news-blocks .button a:hover {
-      background-color: #e7786d; }
+.content .news .button {
+  text-align: center; }
+  .content .news .button a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    width: 180px;
+    height: 50px;
+    background: #e74c3c;
+    text-align: center;
+    line-height: 3.1em;
+    margin-top: 30px; }
+  .content .news .button a:hover {
+    background-color: #e7786d; }
 .content .shop {
   overflow: hidden;
   margin-bottom: 50px; }
