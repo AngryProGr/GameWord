@@ -1,3 +1,59 @@
+body {
+  color: #fff; }
+  body p, body h2, body h3 {
+    padding: 0;
+    margin: 0; }
 
+.adv {
+  display: none; }
+
+.content .nav-str {
+  margin-top: 30px;
+  background-color: #333;
+  padding: 15px; }
+  .content .nav-str p {
+    padding-right: 20px;
+    font-size: 18px;
+    display: inline-block; }
+    .content .nav-str p a {
+      text-decoration: none;
+      color: #e74c3c; }
+    .content .nav-str p a:hover {
+      color: #e7786d; }
+.content .head-text {
+  border-left: 5px solid #e74c3c;
+  padding-left: 15px;
+  margin: 50px 0; }
+  .content .head-text h2 {
+    color: #e74c3c; }
+.content .news-row {
+  margin-bottom: 30px; }
+  .content .news-row .newsblock {
+    padding: 25px;
+    border: 10px solid #2b2b2b;
+    background-color: #333;
+    text-align: center; }
+    .content .news-row .newsblock .imgbox {
+      display: inline-block;
+      width: 250px;
+      height: 180px;
+      background-image: url(../img/wow.jpg);
+      background-size: cover;
+      border: 1px solid #777;
+      border-radius: 8px; }
+    .content .news-row .newsblock h2 {
+      margin: 10px;
+      text-align: center;
+      color: #e74c3c; }
+    .content .news-row .newsblock p {
+      text-align: left;
+      text-indent: 3em; }
+    .content .news-row .newsblock a {
+      float: right;
+      font-size: 16px;
+      text-decoration: none;
+      color: #e74c3c; }
+    .content .news-row .newsblock a:hover {
+      color: #e7786d; }
 
 /*# sourceMappingURL=news.css.map */

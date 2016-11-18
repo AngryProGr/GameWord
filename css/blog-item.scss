@@ -5,6 +5,7 @@ body{
 		margin: 0;
 	}
 }
+
 .adv{
 	display: none;
 }
@@ -34,36 +35,42 @@ body{
 			color: #e74c3c;
 		}
 	}
-	.news-row{
-		margin-bottom: 30px;
-		.newsblock{
-			padding: 25px;
-			border: 10px solid #2b2b2b;
-			background-color: #333;
-			text-align: center;
-			.imgbox{
-				display: inline-block;
-				width: 250px;
-				height: 180px;
-				background-image: url(../img/wow.jpg);
+	.blogbox{
+		margin-bottom: 50px;
+		.user-info{
+			border-radius: 8px;
+			padding: 15px;
+			border: 1px dotted #444;
+			.user-avatar{
+				width: 150px;
+				height: 150px;
+				background-image: url(../img/user.jpg);
 				background-size: cover;
-				border: 1px solid #777;
+				margin: 7px;
 				border-radius: 8px;
 			}
-			h2{
-				margin: 10px;
-				text-align: center;
+			p.nickname{
 				color: #e74c3c;
+				font-size: 18px;
+			}
+			.status-offline{
+				color: red;
+			}
+		}
+		.text{
+			h3{
+				color: #e74c3c;
+				margin: 0 0 20px 2em;
 			}
 			p{
-				text-align: left;
+				margin: 7px;
 				text-indent: 3em;
 			}
 			a{
-				float: right;
 				font-size: 16px;
-				text-decoration: none;
+				float: right;
 				color: #e74c3c;
+				text-decoration: none;
 			}
 			a:hover{
 				color: #e7786d;
@@ -71,3 +78,4 @@ body{
 		}
 	}
 }
+

@@ -1,0 +1,61 @@
+body {
+  color: #fff; }
+  body p, body h2, body h3 {
+    padding: 0;
+    margin: 0; }
+
+.adv {
+  display: none; }
+
+.content .nav-str {
+  margin-top: 30px;
+  background-color: #333;
+  padding: 15px; }
+  .content .nav-str p {
+    padding-right: 20px;
+    font-size: 18px;
+    display: inline-block; }
+    .content .nav-str p a {
+      text-decoration: none;
+      color: #e74c3c; }
+    .content .nav-str p a:hover {
+      color: #e7786d; }
+.content .head-text {
+  border-left: 5px solid #e74c3c;
+  padding-left: 15px;
+  margin: 50px 0; }
+  .content .head-text h2 {
+    color: #e74c3c; }
+.content .blogbox {
+  margin-bottom: 50px; }
+  .content .blogbox .user-info {
+    border-radius: 8px;
+    padding: 15px;
+    border: 1px dotted #444; }
+    .content .blogbox .user-info .user-avatar {
+      width: 150px;
+      height: 150px;
+      background-image: url(../img/user.jpg);
+      background-size: cover;
+      margin: 7px;
+      border-radius: 8px; }
+    .content .blogbox .user-info p.nickname {
+      color: #e74c3c;
+      font-size: 18px; }
+    .content .blogbox .user-info .status-offline {
+      color: red; }
+  .content .blogbox .text h3 {
+    color: #e74c3c;
+    margin: 0 0 20px 2em; }
+  .content .blogbox .text p {
+    margin: 7px;
+    text-indent: 3em; }
+  .content .blogbox .text a {
+    font-size: 16px;
+    float: right;
+    color: #e74c3c;
+    text-decoration: none; }
+  .content .blogbox .text a:hover {
+    color: #e7786d; }
+
+/*# sourceMappingURL=blog-item.css.map */
